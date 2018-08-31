@@ -41,12 +41,12 @@ I added some additional comment to help with your understanding
         	// The retrieved page would be a HTML file look like this
         	/*
         	<html>
-            	<head>
-                	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-            	</head>
-            	<body>
-                	Hello World
-            	</body>
+            		<head>
+                		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+            		</head>
+            		<body>
+                		Hello World
+            		</body>
         	</html>
         	*/
 		
