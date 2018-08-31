@@ -1,4 +1,8 @@
-# Tutorial for Selenium
+# Setup
+
+First of all, make sure you have downloaded the binary file for the selenium driver (either Chrome or Firefox) and added that to your system path, [How to get selenium](ttps://github.com/ucsb-cs56-pconrad/UCSB-CS56-pconrad.github.io/blob/master/_topics/selenium.md)
+
+# Dependencies
 
 # sparkjava-01
 
