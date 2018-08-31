@@ -68,5 +68,5 @@ If you need additional help for HTML, [w3shool](https://www.w3schools.com/) has 
 
 # To run test
 To run tests, simply do:
-| run junit tests | Type `mvn test` |
+`mvn test` 
 
