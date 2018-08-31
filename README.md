@@ -1,8 +1,14 @@
+# Selenium
+
+Selenium WebDriver is a tool used to automate web application testing to verify that the webpage works as expected. It supports many browsers such as Firefox, Chrome, IE, and Safari. The core of Selenium is essentially a web browser. The Selenium library provided many functions that allows the testers to create interactive end-to-end test with little effort. 
+
 # Setup
 
-First of all, make sure you have downloaded the binary file for the selenium driver (either Chrome or Firefox) and added that to your system path, [How to get selenium](ttps://github.com/ucsb-cs56-pconrad/UCSB-CS56-pconrad.github.io/blob/master/_topics/selenium.md)
+First of all, make sure you have downloaded the binary file for the selenium driver (either Chrome or Firefox) and added that to your system path. [How to get selenium](https://github.com/ucsb-cs56-pconrad/UCSB-CS56-pconrad.github.io/blob/master/_topics/selenium.md)
 
 # Dependencies
+
+
 
 # sparkjava-01
 
