@@ -30,32 +30,41 @@ I added some additional comment to help with your understanding
 
 	@Test
 	public void test_hello() {
-        // Opens the a chrome browser window for testing
+        	// Opens the a chrome browser window for testing
 		WebDriver driver = new ChromeDriver();
         
-        // Let the browser access a certain page and retrieves the page's full content
-        // In this case, it opens our Hello World application hosted on heroku
-        // Change it to the webpages you want to test
+        	// Let the browser access a certain page and retrieves the page's full content
+        	// In this case, it opens our Hello World application hosted on heroku
+        	// Change it to the webpages you want to test
 		driver.get("https://derek-webapp.herokuapp.com/");
         
-        // The retrieved page would be a HTML file look like this
-        /*
-        <html>
-            <head>
-                <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-            </head>
-            <body>
-                Hello World
-            </body>
-        </html>
-        */
+        	// The retrieved page would be a HTML file look like this
+        	/*
+        	<html>
+            	<head>
+                	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+            	</head>
+            	<body>
+                	Hello World
+            	</body>
+        	</html>
+        	*/
+		
+		// Find all the element that's encompassed by "<body> </body>" tags
+		// In this case, Hello World is inside the "<body> </body>" tags
 		WebElement element = driver.findElement(By.tagName("body"));
+		
+		// Parse them to String
 		String content = element.getText();
-
+		
+		// Close the chrome browser window
 		driver.quit();
+		
+		// Checks if the retrieved content is indeed "Hello World"
 		assertEquals("Hello World", content);
     }
 
+If you need additional help for HTML, [w3shool](https://www.w3schools.com/) has some pretty good tutorials.
 
 # To run test
 To run tests, simply do:
