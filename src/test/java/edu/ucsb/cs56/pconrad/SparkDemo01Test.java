@@ -10,6 +10,9 @@ import org.junit.After;
 import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;
 
+import org.openqa.selenium.*;
+import org.openqa.selenium.chrome.ChromeDriver;
+
 public class SparkDemo01Test {
 
 
@@ -34,5 +37,17 @@ public class SparkDemo01Test {
 	public void test_out() {
 		assertTrue(true);
 	}
-	
+
+	@Test
+	public void test_hello() {
+		WebDriver driver = new ChromeDriver();
+		driver.get("https://derek-webapp.herokuapp.com/");
+
+		//String content = driver.getPageSource();
+		WebElement element = driver.findElement(By.tagName("body"));
+		String content = element.getText();
+
+		driver.quit();
+		assertEquals("Hello World", content);
+	}
 }
