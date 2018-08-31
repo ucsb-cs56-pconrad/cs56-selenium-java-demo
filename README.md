@@ -8,6 +8,7 @@ First of all, make sure you have downloaded the binary file for the selenium dri
 
 # Dependencies
 To use Selenium, please add the following dependency to your pom.xml file, 
+'''
   <dependencies>
   ...
     <dependency>
@@ -17,7 +18,7 @@ To use Selenium, please add the following dependency to your pom.xml file,
     </dependency>
   ...
   </dependencies>
-
+'''
 # sparkjava-01
 
 The simplest possible SparkJava web app (Hello World)
