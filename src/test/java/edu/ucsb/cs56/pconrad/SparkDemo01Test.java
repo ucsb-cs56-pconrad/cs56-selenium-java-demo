@@ -50,4 +50,17 @@ public class SparkDemo01Test {
 		driver.quit();
 		assertEquals("Hello World", content);
 	}
+
+	@Test
+	public void test_bye() {
+		WebDriver driver = new ChromeDriver();
+		driver.get("https://derek-webapp.herokuapp.com/bye");
+
+		//String content = driver.getPageSource();
+		WebElement element = driver.findElement(By.tagName("body"));
+		String content = element.getText();
+
+		driver.quit();
+		assertEquals("Goodbye World", content);
+	}
 }
