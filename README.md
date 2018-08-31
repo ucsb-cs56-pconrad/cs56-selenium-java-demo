@@ -42,10 +42,10 @@ I added some additional comment to help with your understanding
         	/*
         	<html>
             	<head>
-                	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+                		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
             	</head>
             	<body>
-                	Hello World
+                		Hello World
             	</body>
         	</html>
         	*/
