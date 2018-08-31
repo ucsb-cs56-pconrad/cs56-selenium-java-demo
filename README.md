@@ -26,7 +26,7 @@ If you want to use it with JUnit test, add the following dependency too
 
 # How to add test
 The following code is located in /src/test/java/edu/ucsb/cs56/pconrad/SparkDemo01Test.java
-I added some additional comment to help you understand ing
+I added some additional comment to help with your understanding
 
 	@Test
 	public void test_hello() {
