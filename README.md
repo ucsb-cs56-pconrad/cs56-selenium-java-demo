@@ -1,3 +1,7 @@
+# cs56-selenium-java-demo
+
+The [Original version of this tutorial](https://github.com/guanguangua/sparkjava-01) is by [Derek Ren](https://github.com/guanguangua/), for CS56/CS190J in Summer 2018.
+
 # Selenium
 
 Selenium WebDriver is a tool used to automate web application testing to verify that the webpage works as expected. It supports many browsers such as Firefox, Chrome, IE, and Safari. The core of Selenium is essentially a web browser, it test a webpage by simulating users accessing the webpage and check if the webpage behaves as expected. The Selenium library provided many functions that allows the testers to create interactive end-to-end test with little effort. 
