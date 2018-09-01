@@ -4,9 +4,9 @@ Selenium WebDriver is a tool used to automate web application testing to verify 
 
 # Setup
 
-This repo is ready-to-go, fork and experiment it as you like.
+I've already configured the dependencies for you and this repo is ready-to-go, fork it and do experiments as you like.
 
-First of all, make sure you have downloaded the binary file for the selenium driver (either Chrome or Firefox) and added that to your system path. [How to get selenium](https://github.com/ucsb-cs56-pconrad/UCSB-CS56-pconrad.github.io/blob/master/_topics/selenium.md)
+But, first of all, make sure you have downloaded the binary file for the selenium driver (either Chrome or Firefox) and added that to your system path. [How to get selenium](https://github.com/ucsb-cs56-pconrad/UCSB-CS56-pconrad.github.io/blob/master/_topics/selenium.md)
 
 # Dependencies
 To use Selenium, please add the following dependency to your pom.xml file
@@ -17,7 +17,7 @@ To use Selenium, please add the following dependency to your pom.xml file
       <version>3.14.0</version>
     </dependency>
 
-If you want to use it with JUnit test, add the following dependency too
+If you want to use it with JUnit test, add the following dependency too (Optional but preferred)
 
     <dependency>
       <groupId>junit</groupId>
