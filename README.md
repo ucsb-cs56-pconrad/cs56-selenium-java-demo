@@ -15,11 +15,16 @@ But, first of all, make sure you have downloaded the binary file for the seleniu
 # Dependencies
 To use Selenium, please add the following dependency to your pom.xml file
 
+```xml
     <dependency>
       <groupId>org.seleniumhq.selenium</groupId>
       <artifactId>selenium-java</artifactId>
       <version>3.14.0</version>
     </dependency>
+```
+
+The javadoc for the Java Selenium driver is here: <https://seleniumhq.github.io/selenium/docs/api/java/index.html?overview-summary.html>.  That documents, for example the methods of the `WebElement` class in the sample code below.
+
 
 If you want to use it with JUnit test, add the following dependency too (Optional but preferred)
 
@@ -29,6 +34,7 @@ If you want to use it with JUnit test, add the following dependency too (Optiona
       <version>4.8.2</version>
       <scope>test</scope>
     </dependency>
+
 
 # How to add test
 The following code is located in /src/test/java/edu/ucsb/cs56/pconrad/SparkDemo01Test.java,
