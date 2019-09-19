@@ -1,5 +1,18 @@
 \#*\#
 *~
+
+# For VSCode 
+.classpath
+.project
+.settings/
+.vscode/
+				
+# For selenium testing, if we happen to drop a chromedriver
+# in this directory, don't commit it to git
+
+chromedriver
+
+# For Maven:
 target/
 
 # Compiled class file

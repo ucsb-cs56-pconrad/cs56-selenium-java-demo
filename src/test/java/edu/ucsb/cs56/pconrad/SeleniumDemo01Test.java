@@ -1,7 +1,6 @@
 package edu.ucsb.cs56.pconrad;
 
 import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertTrue;
 
 import org.junit.Test;
 import org.junit.Before;
@@ -13,7 +12,7 @@ import java.io.PrintStream;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class SparkDemo01Test {
+public class SeleniumDemo01Test {
 
 
 	private final ByteArrayOutputStream outContent = new ByteArrayOutputStream();
@@ -31,11 +30,6 @@ public class SparkDemo01Test {
 	public void restoreStreams() {
 		System.setOut(originalOut);
 		System.setErr(originalErr);
-	}
-
-	@Test
-	public void test_out() {
-		assertTrue(true);
 	}
 
 	@Test
